@@ -13,3 +13,5 @@ yarn build
 ```
 
 to bundle your application
+
+demo: https://react-modal-component.vercel.app/
