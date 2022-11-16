@@ -1,0 +1,89 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+  min-width: 300px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid darkgray;
+  padding: 0px 20px;
+}
+
+.button-close-modal {
+  background: none;
+  border: none;
+  color: darkgrey;
+}
+
+.button-close-modal:hover {
+  color: #2327be;
+}
+
+.button-close-modal img {
+  width: 25px;
+}
+
+.modal-body {
+  padding: 10px 20px;
+  max-height: 300px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid darkgrey;
+  padding: 20px;
+  gap: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.footer-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.reject-button {
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+}
+
+.reject-button:hover {
+  border: 1px solid #2327be;
+  color: #2327be;
+}
+
+.approve-button {
+  border: 1px solid #2327be;
+  background-color: #2327be;
+  color: white;
+}
+@media only screen and (min-width: 320px) {
+  .modal-container {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-container {
+    width: 500px;
+  }
+}
